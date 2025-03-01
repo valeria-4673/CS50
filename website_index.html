@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta name= "viewport" content= "initial-scale= 1, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Valeria's Homepage</title>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function ()
+        {
+            document.querySelector('#boton1').onclick = function()
+            {
+                document.querySelector('#letrero').innerHTML = "Hello folks!";
+            }
+        });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class = "clase1">
+        <h1> Welcome Everyone</h1>
+        </div>
+            <p> This is my first homepage I created for the CS50 assignment week 8. Please see some of the stuff I have worked on.
+                For example, this was the SAI I designed.</p>
+            <img alt="SAI Map" src= "SAI.png" style="width:500px;height:600px;">
+            <p>And this was the SAI presentation.</p>
+            <video controls>
+                <source src="Video.mp4" type="video/mp4">
+            </video>
+            <p class= "parrafoEuro">The presentation was made in the framework of Euroemotur project.
+            If you are curious about the project please visit <a href= "https://euroemotur.eu/">Euroemotur</a>
+            </p>
+
+        <h2>This is the website index</h2>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item active" aria-current="page">Home</li>
+                  <li class="breadcrumb-item"><a href= "https://sturdy-carnival-pjqg99q6q4rhrj99-8080.app.github.dev/facts.html">Facts page</a></li>
+                  <li class="breadcrumb-item"><a href= "https://sturdy-carnival-pjqg99q6q4rhrj99-8080.app.github.dev/recommendations.html">Recommendations page</a></li>
+                  <li class="breadcrumb-item"><a href= "https://sturdy-carnival-pjqg99q6q4rhrj99-8080.app.github.dev/interests.html">Interests page</a></li>
+                </ol>
+            </nav>
+
+        <table>
+            <tr>
+                <td>
+                    <button id = "boton1"> Guess what?</button>
+                </td>
+                <td>
+                    Esto es una celda
+                </td>
+            </tr>
+        </table>
+        <p id = "letrero"> </p>
+    </body>
+
+    <footer>
+        &#169; Developed by Valeria Cabra
+    </footer>
+</html>
