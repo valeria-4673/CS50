@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+.clase1 {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#boton1 {
+    background-color: #00FFFF;
+}
+
+p.parrafoEuro {
+    color: #FF00FF;
+}
+
+* {
+    font-family: "Lucida Console";
+}
